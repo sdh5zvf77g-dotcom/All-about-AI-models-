@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AI Model Atlas">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70e1e8"/>
+      <stop offset="50%" stop-color="#86a9ff"/>
+      <stop offset="100%" stop-color="#f4a6d7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#172b49"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="112" fill="url(#g2)"/>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="168" fill="none" stroke="url(#g)" stroke-width="18" opacity="0.9"/>
+  <!-- Inner node network -->
+  <circle cx="256" cy="160" r="28" fill="#70e1e8"/>
+  <circle cx="170" cy="280" r="24" fill="#86a9ff"/>
+  <circle cx="342" cy="280" r="24" fill="#86a9ff"/>
+  <circle cx="210" cy="360" r="20" fill="#f4a6d7"/>
+  <circle cx="302" cy="360" r="20" fill="#f4a6d7"/>
+  <circle cx="256" cy="256" r="22" fill="#ffd28a"/>
+  <!-- Connections -->
+  <line x1="256" y1="188" x2="256" y2="234" stroke="#70e1e8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="256" y1="188" x2="186" y2="262" stroke="#86a9ff" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <line x1="256" y1="188" x2="326" y2="262" stroke="#86a9ff" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <line x1="186" y1="298" x2="236" y2="250" stroke="#86a9ff" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <line x1="326" y1="298" x2="276" y2="250" stroke="#86a9ff" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <line x1="186" y1="298" x2="218" y2="346" stroke="#f4a6d7" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  <line x1="326" y1="298" x2="294" y2="346" stroke="#f4a6d7" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  <line x1="236" y1="250" x2="276" y2="250" stroke="#ffd28a" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- Small accent dots -->
+  <circle cx="120" cy="140" r="8" fill="#70e1e8" opacity="0.5"/>
+  <circle cx="392" cy="140" r="8" fill="#f4a6d7" opacity="0.5"/>
+  <circle cx="100" cy="380" r="6" fill="#86a9ff" opacity="0.45"/>
+  <circle cx="412" cy="380" r="6" fill="#ffd28a" opacity="0.45"/>
+</svg>
